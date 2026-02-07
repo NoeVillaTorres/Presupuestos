@@ -13,5 +13,6 @@ urlpatterns = [
     path("presupuesto/<int:pk>/", views.detalle_presupuesto, name="detalle_presupuesto"),
     path("presupuesto/<int:pk>/pdf/", views.presupuesto_pdf, name="presupuesto_pdf"),
     path('catalogo/eliminar/<int:pk>/', views.catalogo_eliminar, name='catalogo_eliminar'),
+    path('catalogo/aumentar-diez/', views.aumentar_precios_catalogo, name='aumentar_precios_catalogo'),
 ]
 

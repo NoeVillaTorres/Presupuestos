@@ -5,6 +5,7 @@ from django.template.loader import render_to_string
 from django.http import HttpResponse
 from weasyprint import HTML
 from django.db.models import Q
+from django.db.models import F
 # Create your views here.
 
 
@@ -94,6 +95,24 @@ def detalle_presupuesto(request, pk):
         "detalles": detalles,
         "total": total
     })
+
+
+def aumentar_precios_catalogo(request):
+    if request.method == 'POST':
+        # Obtenemos el porcentaje del formulario (por defecto 10 si algo falla)
+        porcentaje_str = request.POST.get('porcentaje', '10')
+        try:
+            porcentaje = float(porcentaje_str)
+        except ValueError:
+            porcentaje = 0
+
+        if porcentaje != 0:
+            # Fórmula: Precio * (1 + (porcentaje / 100))
+            # Ejemplo: 10% -> Precio * 1.10 | -5% -> Precio * 0.95
+            factor = 1 + (porcentaje / 100)
+            ProductoServicio.objects.all().update(precio_unitario=F('precio_unitario') * factor)
+    
+    return redirect(request.META.get('HTTP_REFERER', 'catalogo'))
 
 def presupuesto_pdf(request, pk):
     presupuesto = get_object_or_404(Presupuesto, pk=pk)
