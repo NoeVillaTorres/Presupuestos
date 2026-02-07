@@ -1,0 +1,236 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cotización {{ presupuesto.folio }}</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 1cm;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            /* Espacio de seguridad para que la tabla no choque con el footer al final de la hoja */
+            padding-bottom: 200px; 
+        }
+
+        /* Estructura Base */
+        .tabla-layout {
+            width: 100%;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .tabla-layout td {
+            vertical-align: top;
+            border: none;
+        }
+
+        /* Encabezado */
+        .logo-container { width: 30%; }
+        .titulo-container { width: 40%; text-align: center; }
+        .folio-container { width: 30%; text-align: right; }
+
+        .logo-img {
+            max-width: 180px;
+            height: auto;
+        }
+
+        h1 { font-size: 18px; margin: 0; color: #000; }
+        .sub-titulo { font-size: 12px; margin-top: 5px; color: #666; text-transform: uppercase; }
+
+        .folio-box {
+            border: 1px solid #ccc;
+            background-color: #f8f9fa;
+            padding: 10px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Bloques de Información */
+        .header-azul {
+            background-color: #dce6f1;
+            padding: 5px;
+            font-weight: bold;
+            border: 1px solid #999;
+            color: #1d4e89;
+            margin-bottom: 5px;
+        }
+
+        /* Tabla de Productos */
+        .tabla-productos {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .tabla-productos th {
+            background-color: #dce6f1;
+            border: 1px solid #999;
+            padding: 8px;
+            font-size: 10px;
+            text-align: center;
+        }
+        .tabla-productos td {
+            border: 1px solid #e0e0e0;
+            padding: 7px;
+        }
+
+        /* Totales */
+        .tabla-totales {
+            width: 250px;
+            float: right;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .tabla-totales td {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        .label-total {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            text-align: right;
+        }
+        .total-final {
+            background-color: #1d4e89;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        /* Footer Posicionado al Final de la Hoja */
+        .footer-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+        .footer-notes {
+            font-size: 10px;
+        }
+        .nota-box {
+            background-color: #fff9e6;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 10px;
+        }
+        .disclaimer {
+            font-size: 9px;
+            color: #888;
+            text-align: justify;
+            margin-top: 15px;
+            font-style: italic;
+        }
+        
+        /* Helpers */
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .bold { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <table class="tabla-layout">
+        <tr>
+            <td class="logo-container">
+                <img src="{% static 'core/images/logo.png' %}" class="logo-img">
+            </td>
+            <td class="titulo-container">
+                <h1>UNA SOLUCIÓN EFECTIVA!</h1>
+                <div class="sub-titulo">{{ presupuesto.proyecto }}</div>
+            </td>
+            <td class="folio-container">
+                <div class="folio-box">COT: {{ presupuesto.folio }}</div>
+                <p class="bold">Fecha: {{ presupuesto.fecha|date:"d/m/Y" }}</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="tabla-layout">
+        <tr>
+            <td style="width: 48%;">
+                <div class="header-azul">EMISOR</div>
+                <strong>AUGUSTO VILLA VILLASEÑOR</strong><br>
+                RFC: VIVA790920ST0<br>
+                Calle Celulosa #360, Infonavit Cepamisa<br>
+                CP. 58199, Morelia, Michoacán
+            </td>
+            <td style="width: 4%;"></td> 
+            <td style="width: 48%;">
+                <div class="header-azul">DATOS DEL CLIENTE</div>
+                <strong>NOMBRE:</strong> {{ presupuesto.cliente_nombre|default:"" }}<br>
+                <strong>DIRECCIÓN:</strong> {{ presupuesto.cliente_direccion|default:"" }}<br>
+                <strong>CIUDAD:</strong> {{ presupuesto.cliente_ciudad|default:"" }}<br>
+                <strong>CP:</strong> {{ presupuesto.cliente_cp|default:"" }}
+            </td>
+        </tr>
+    </table>
+
+    <table class="tabla-productos">
+        <thead>
+            <tr>
+                <th width="30">No.</th>
+                <th>Descripción</th>
+                <th width="50">Cant.</th>
+                <th width="60">Unidad</th>
+                <th width="90">P. Unitario</th>
+                <th width="100">Importe</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for d in detalles %}
+            <tr>
+                <td class="text-center">{{ forloop.counter }}</td>
+                <td>{{ d.producto.descripcion }}</td>
+                <td class="text-center">{{ d.cantidad }}</td>
+                <td class="text-center">{{ d.unidad }}</td> 
+                <td class="text-right">${{ d.producto.precio_unitario|floatformat:2 }}</td>
+                <td class="text-right">${{ d.subtotal|floatformat:2 }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="6" class="text-center">No hay conceptos registrados.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <table class="tabla-totales">
+        <tr>
+            <td class="label-total">Subtotal</td>
+            <td class="text-right">${{ presupuesto.total|floatformat:2 }}</td>
+        </tr>
+        <tr>
+            <td class="label-total">IVA (16%)</td>
+            <td class="text-right">${{ total|floatformat:2 }}</td> </tr>
+        <tr class="total-final">
+            <td style="text-align: right;">TOTAL</td>
+            <td class="text-right">${{ total|floatformat:2 }}</td>
+        </tr>
+    </table>
+
+    <div class="footer-container">
+        <div class="footer-notes">
+            <div class="nota-box">
+                <strong>NOTAS IMPORTANTES:</strong><br>
+                • Vigencia: 1 semana debido al cambio constante de precios en materiales.<br>
+                • Esta cotización incluye únicamente los materiales y mano de obra mencionados.
+            </div>
+
+            <div style="text-align: center; margin-top: 10px; font-weight: bold; font-size: 11px;">
+                Contacto: Tel. (52) 443-3164287 | WhatsApp 443-2272961
+            </div>
+
+            <div class="disclaimer">
+                "En inEléctrica consideramos un privilegio el poder hacer negocios con Ud. y/o su representada. Nuestro código de ética es la guía que rige todas nuestras operaciones y decisiones bajo principios de transparencia y honestidad."
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

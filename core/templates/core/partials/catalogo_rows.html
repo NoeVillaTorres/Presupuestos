@@ -1,0 +1,28 @@
+{% for p in productos %}
+<tr class="hover:bg-white/5 transition group">
+    <td class="px-6 py-4 text-white/90 leading-relaxed">{{ p.descripcion }}</td>
+    <td class="px-6 py-4 text-white/40 italic">{{ p.categoria }}</td>
+    <td class="px-6 py-4 text-right text-white/80 font-mono">${{ p.precio_unitario }}</td>
+    <td class="px-6 py-4 text-center space-x-4">
+        <a href="{% url 'catalogo_editar' p.id %}" 
+           class="text-[10px] uppercase tracking-tighter text-blue-400 hover:text-blue-300 font-bold transition">
+            Editar
+        </a>
+
+        <form action="{% url 'catalogo_eliminar' p.id %}" method="post" class="inline">
+            {% csrf_token %}
+            <button type="submit" 
+                    onclick="return confirm('¿Estás seguro de eliminar este producto?')"
+                    class="text-[10px] uppercase tracking-tighter text-red-400/60 hover:text-red-400 font-bold transition">
+                Eliminar
+            </button>
+        </form>
+    </td>
+</tr>
+{% empty %}
+<tr>
+    <td colspan="4" class="px-6 py-10 text-center text-white/20 uppercase tracking-widest text-xs">
+        No hay coincidencias en el catálogo
+    </td>
+</tr>
+{% endfor %}

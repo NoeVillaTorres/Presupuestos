@@ -1,0 +1,111 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %}Producto - INELECTRICA{% endblock %}
+
+{% block background_image %}
+{% static 'core/images/images1.jpg' %}
+{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 pt-24 pb-10 space-y-8">
+
+    <div class="flex items-center">
+        <a href="{% url 'index' %}" class="transition-transform hover:scale-105 active:scale-95 inline-block">
+            <img 
+                src="{% static 'core/images/logo.png' %}" 
+                alt="Inicio" 
+                class="h-16 w-auto object-contain drop-shadow-xl"
+            >
+        </a>
+    </div>
+
+    <div class="border-b border-white/10 pb-4">
+        <h2 class="text-3xl font-light text-white italic">Gestión de <span class="font-bold text-blue-400">Producto</span></h2>
+        <p class="text-[10px] text-white/40 uppercase tracking-widest mt-1">Configuración técnica del catálogo</p>
+    </div>
+
+    <form method="post" class="space-y-5 bg-white/5 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-2xl">
+        {% csrf_token %}
+
+        {{ form.non_field_errors }}
+
+        <div>
+            <label class="text-[9px] uppercase tracking-widest text-white/40 ml-1 mb-1 block">
+                {{ form.descripcion.label }}
+            </label>
+            {{ form.descripcion }}
+            {{ form.descripcion.errors }}
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div>
+                <label class="text-[9px] uppercase tracking-widest text-white/40 ml-1 mb-1 block">
+                    {{ form.categoria.label }}
+                </label>
+                {{ form.categoria }}
+                {{ form.categoria.errors }}
+            </div>
+
+            <div>
+                <label class="text-[9px] uppercase tracking-widest text-white/40 ml-1 mb-1 block">
+                    {{ form.precio_unitario.label }}
+                </label>
+                {{ form.precio_unitario }}
+                {{ form.precio_unitario.errors }}
+            </div>
+        </div>
+
+        <div class="pt-2 border-t border-white/5">
+            <label class="text-[9px] uppercase tracking-widest text-white/40 ml-1 mb-1 block">
+                {{ form.categoria_nueva.label }}
+            </label>
+            {{ form.categoria_nueva }}
+            <p class="text-[10px] text-zinc-500 mt-2 italic">
+                * Opcional: Escribe aquí si necesitas crear una categoría nueva
+            </p>
+            {{ form.categoria_nueva.errors }}
+        </div>
+
+        <div class="flex justify-end gap-3 pt-6">
+            <a href="{% url 'catalogo_list' %}"
+               class="px-6 py-2.5 rounded-full border border-white/10 text-xs font-bold text-white/60 hover:bg-white/10 transition uppercase tracking-widest">
+                Cancelar
+            </a>
+
+            <button type="submit"
+                class="px-8 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-[10px] font-bold transition shadow-lg shadow-blue-900/40 uppercase tracking-widest">
+                Guardar Cambios
+            </button>
+        </div>
+
+    </form>
+
+</div>
+
+<style>
+    /* Aplicando el estándar de INELECTRICA a los inputs */
+    input, select, textarea {
+        background: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        color: white !important;
+        border-radius: 8px !important;
+        padding: 12px !important;
+        width: 100%;
+        font-size: 13px !important;
+        transition: all 0.3s ease;
+        margin-top: 4px;
+    }
+    
+    input:focus, select:focus, textarea:focus {
+        background: rgba(255, 255, 255, 0.08) !important;
+        border-color: rgba(59, 130, 246, 0.5) !important;
+        outline: none !important;
+        box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
+    }
+
+    /* Estilo para el select (flecha y opciones) */
+    select { appearance: none; cursor: pointer; }
+    option { background: #1a1a1a; color: white; }
+</style>
+{% endblock %}
