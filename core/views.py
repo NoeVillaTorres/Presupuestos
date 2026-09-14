@@ -1,3 +1,6 @@
+import os
+from django.conf import settings
+from django.contrib.staticfiles import finders
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import ProductoServicio, Presupuesto, DetallePresupuesto
 from .forms import ProductoForm, DetallePresupuestoForm, PresupuestoInfoForm
@@ -6,6 +9,7 @@ from django.http import HttpResponse
 from weasyprint import HTML
 from django.db.models import Q, F
 from django.contrib.auth.decorators import login_required
+
 
 @login_required
 def index(request):
@@ -117,9 +121,17 @@ def aumentar_precios_catalogo(request):
 @login_required
 def presupuesto_pdf(request, pk):
     presupuesto = get_object_or_404(Presupuesto, pk=pk)
-    # Optimización de consulta para el PDF
     detalles = presupuesto.detalles.select_related('producto').all()
     total = presupuesto.total
+
+    # Obtenemos la ruta absoluta de la imagen en el sistema de archivos
+    logo_path = finders.find('core/images/logo.png')
+    
+    # Si la encuentra, la convertimos a formato URI que WeasyPrint entiende perfectamente
+    if logo_path:
+        logo_url = f"file://{logo_path}"
+    else:
+        logo_url = ""
 
     html_string = render_to_string(
         "core/presupuesto_pdf.html",
@@ -127,13 +139,12 @@ def presupuesto_pdf(request, pk):
             "presupuesto": presupuesto,
             "detalles": detalles,
             "total": total,
+            "logo_url": logo_url,  # Enviamos la ruta exacta al template
         }
     )
 
-    # Definimos la base_url para garantizar la resolución de imágenes estáticas
     pdf = HTML(string=html_string, base_url=request.build_absolute_uri('/')).write_pdf()
+    
     response = HttpResponse(pdf, content_type="application/pdf")
-    response["Content-Disposition"] = (
-        f'inline; filename="presupuesto_{presupuesto.folio}.pdf"'
-    )
+    response["Content-Disposition"] = f'inline; filename="presupuesto_{presupuesto.folio}.pdf"'
     return response
