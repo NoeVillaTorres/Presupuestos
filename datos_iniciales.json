@@ -1,0 +1,3671 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$JG0UHaoAinENlFH6UJLLRX$t6usWAByZi9rQ8NkjYrroQMulmv4nf3QOoBCAwAOlEI=",
+        "last_login": "2026-09-14T20:50:10.903Z",
+        "is_superuser": true,
+        "username": "noe",
+        "first_name": "",
+        "last_name": "",
+        "email": "noevdm2@hotmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-01-19T17:24:49.652Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8hpgh7pnzuz0gbvi3aolrzkbunpb8y05",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAZCK24dO8ZyMAMUjWQlHbVeHdt0oVu_3vvbyrQupSwdpnDxOqiUJ1-t0jpKXUH_KB6bzq1usxT1LuiD9r1rbG8rof7d1Col28dCRnQn3MmQbGSkEdr4yAwknhHhp0HZxy4AY1xHhHApwwgYEUiqvcH6zk3fA:1w9oGj:9nXRlWOc9kaDPsNDGgz2NE50vp3ywKXaV2cGof9SXLs",
+        "expire_date": "2026-04-20T18:01:49.621Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n52e5eqq5s5prlm8xd1k5zulz68w6bt5",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAZCK24dO8ZyMAMUjWQlHbVeHdt0oVu_3vvbyrQupSwdpnDxOqiUJ1-t0jpKXUH_KB6bzq1usxT1LuiD9r1rbG8rof7d1Col28dCRnQn3MmQbGSkEdr4yAwknhHhp0HZxy4AY1xHhHApwwgYEUiqvcH6zk3fA:1voV0d:32Z-RdLAYCpPFv2Eqa0eB71-t4REHVXxXq9KpvYho-E",
+        "expire_date": "2026-02-20T23:13:07.537Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r2kmix84ei859mrhfj1mr0mepv9b5phh",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAZCK24dO8ZyMAMUjWQlHbVeHdt0oVu_3vvbyrQupSwdpnDxOqiUJ1-t0jpKXUH_KB6bzq1usxT1LuiD9r1rbG8rof7d1Col28dCRnQn3MmQbGSkEdr4yAwknhHhp0HZxy4AY1xHhHApwwgYEUiqvcH6zk3fA:1x6Dcw:iSx6A0aXAf9Zc6SjttjV04wbqr7vmdqZQ54Pv3aAZ5E",
+        "expire_date": "2026-09-28T20:50:10.909Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rcmp1viyhxngjlqj7qr8rer2yk1lg42t",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAZCK24dO8ZyMAMUjWQlHbVeHdt0oVu_3vvbyrQupSwdpnDxOqiUJ1-t0jpKXUH_KB6bzq1usxT1LuiD9r1rbG8rof7d1Col28dCRnQn3MmQbGSkEdr4yAwknhHhp0HZxy4AY1xHhHApwwgYEUiqvcH6zk3fA:1vht0K:iwW3diK4ctuGACcnuSyT4-yK9TBOfO__RlZyIKOcRDk",
+        "expire_date": "2026-02-02T17:25:28.083Z"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 1,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO PVC 3/4 pulg PESADO TRAMO 3 MTS.",
+        "precio_unitario": "15.53"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 2,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO PVC 1 pulg PESADO TRAMO 3 MTS.",
+        "precio_unitario": "19.49"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 3,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO CONDUIT PARED GRUESA 3 pulg SIN COPLE",
+        "precio_unitario": "1448.99"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 4,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO PVC 3 pulg PESADO TRAMO 3 MTS.",
+        "precio_unitario": "89.87"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 5,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO CONDUIT PARED DELGADA 1 pulg SIN COPLE",
+        "precio_unitario": "181.74"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 6,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO MUFA CONDUIT PARED GRUESA 1 1/4 pulg X 4 MTS.",
+        "precio_unitario": "255.86"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 7,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO LICUATITE 1 pulg",
+        "precio_unitario": "90.22"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 8,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO LICUATITE 1/2 pulg",
+        "precio_unitario": "51.73"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 9,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO SAPA 1/2 pulg",
+        "precio_unitario": "19.38"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 10,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO LICUATITE 1/2 pulg",
+        "precio_unitario": "51.73"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 11,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "COPLE CONDUIT 3 pulg PARED GRUESA",
+        "precio_unitario": "194.51"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 12,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "MONITOR 3 pulg ANCLO",
+        "precio_unitario": "63.70"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 13,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONTRATUERCA 3 pulg METALICA ANCLO",
+        "precio_unitario": "26.04"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 14,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "TUBO LICUATITE 1 pulg",
+        "precio_unitario": "90.22"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 15,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO PVC 3/4 pulg PESADO",
+        "precio_unitario": "3.72"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 16,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO PVC 1 pulg PESADO",
+        "precio_unitario": "6.57"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 17,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO CONDUIT 3/4 pulg PARED DELGADA",
+        "precio_unitario": "27.66"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 18,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO PVC 2 pulg PESADO",
+        "precio_unitario": "24.88"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 19,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO PVC 2 pulg PESADO",
+        "precio_unitario": "24.88"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 20,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO CONDUIT 3 pulg PARED GRUESA",
+        "precio_unitario": "742.26"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 21,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO CONDUIT 1 pulg PARED DELGADA",
+        "precio_unitario": "55.62"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 22,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CODO CONDUIT 1 1/4 pulg PARED GRUESA",
+        "precio_unitario": "120.60"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 23,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR PVC 3/4 pulg PESADO",
+        "precio_unitario": "1.92"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 24,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR PVC 1 pulg PESADO",
+        "precio_unitario": "2.94"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 25,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1/2 pulg PARA LICUATITE RECTO",
+        "precio_unitario": "14.70"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 26,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR RECTO 1/2 pulg PARA SAPA",
+        "precio_unitario": "6.67"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 27,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1/2 pulg PARA CABLE USO RUDO",
+        "precio_unitario": "5.03"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 28,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "COPLE 3/4 pulg CON OPRESOR PARED DELGADA",
+        "precio_unitario": "7.78"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 29,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 3/4 pulg CON OPRESOR PARED DELGADA",
+        "precio_unitario": "9.11"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 30,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR PVC 2 pulg PESADO",
+        "precio_unitario": "10.56"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 31,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "°CONECTOR PVC 3 pulg PESADO",
+        "precio_unitario": "39.94"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 32,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1/2 pulg PARA LICUATITE CURVO",
+        "precio_unitario": "21.28"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 33,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1 pulg P/LICUATITE RECTO",
+        "precio_unitario": "33.30"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 34,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1 pulg PARA LICUATITE CURVO",
+        "precio_unitario": "25.22"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 35,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1 pulg CON OPRESOR PARED DELGADA DE ACERO",
+        "precio_unitario": "12.77"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 36,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "COPLE 1 pulg CON OPRESOR PARED DELGADA DE ACERO",
+        "precio_unitario": "13.12"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 37,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "CONECTOR 1 pulg PARA LICUATITE CURVO",
+        "precio_unitario": "25.22"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 38,
+    "fields": {
+        "categoria": "GENERAL",
+        "descripcion": "COPLE CONDUIT 1 1/4 pulg PARED GRUESA",
+        "precio_unitario": "35.63"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 39,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE CAL.12 THW 90ºC POR METRO NEGRO",
+        "precio_unitario": "10.62"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 40,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE DE COBRE DESNUDO CAL.12 AWG",
+        "precio_unitario": "9.02"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 41,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE DE COBRE DESNUDO CAL.4 AWG",
+        "precio_unitario": "24.08"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 42,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE DE COBRE DESNUDO CAL.10 AWG",
+        "precio_unitario": "14.34"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 43,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "USO RUDO 3X16 AWG 600V PVC 60ºC METRO",
+        "precio_unitario": "24.49"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 44,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE CAL.10 THW 90ºC ROLLO 100 MTS.COLOR NEGRO",
+        "precio_unitario": "1757.30"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 45,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "USO RUDO 3X12 AWG 600V PVC 60ºC METRO",
+        "precio_unitario": "51.01"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 46,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE ALUMINIO XLPE URD 3x1/0+1x2awg 600V",
+        "precio_unitario": "111.31"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 47,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "CABLE CAL.6 POR METRO NEGRO",
+        "precio_unitario": "43.20"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 48,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "USO RUDO 3X14 AWG 600V PVC 60ºC METRO",
+        "precio_unitario": "33.85"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 49,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "//CABLE ALUMINIO XLPE 3X350+1X4C SUBTERRANEO",
+        "precio_unitario": "258.57"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 50,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "°CABLE ALUMINIO XLPE URD 1+1 CAL.4 (2x4) 600V",
+        "precio_unitario": "25.85"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 51,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 1X15 120/240V SQUARE D",
+        "precio_unitario": "182.57"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 52,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 1X15 120/240V SQUARE D",
+        "precio_unitario": "198.45"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 53,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 2X15 120/240V SQUARE D",
+        "precio_unitario": "675.04"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 54,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 2X30 120/240V SQUARE D",
+        "precio_unitario": "675.04"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 55,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 1X60 120/240V SQUARE D",
+        "precio_unitario": "198.45"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 56,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 3X70 120/240 SQUARE D",
+        "precio_unitario": "2125.98"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 57,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "°INTERRUPTOR TMMG 1x20A QOB SQUARE D",
+        "precio_unitario": "182.57"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 58,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 3X40 120/240 SQUARE D",
+        "precio_unitario": "1869.44"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 59,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "/INTERRUPTOR TMMG 3X70A 600V SIEMENS",
+        "precio_unitario": "4398.88"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 60,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "°INTERRUPTOR TMMG 3X100A 600V SIEMENS",
+        "precio_unitario": "4398.88"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 61,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "/INTERRUPTOR TMMG 3X70A ATORNILLABLE",
+        "precio_unitario": "2489.11"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 62,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "°INTERRUPTOR TMMG 100A 3P 240VCA ATORNILLABLE",
+        "precio_unitario": "3496.79"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 63,
+    "fields": {
+        "categoria": "CONECTORES T",
+        "descripcion": "INTERRUPTOR TMMG 3X70 120/240 SQUARE D",
+        "precio_unitario": "2125.98"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 64,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "UNICANAL SOLIDO CALIBRE 14 DE3 MTS 4X2 LISO",
+        "precio_unitario": "186.63"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 65,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "ABRAZADERA 1 pulg UNICANAL PARED DELGADA ANCLO",
+        "precio_unitario": "7.07"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 66,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "ABRAZADERA 2 pulg UNICANAL PARED DELGADA ANCLO",
+        "precio_unitario": "12.58"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 67,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "ABRAZADERA 3/4 pulg UNICANAL PARED DELGADA ANCLO",
+        "precio_unitario": "6.29"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 68,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "VARILLA ROSCADA GALVANIZADA 1/4 X 3 METROS",
+        "precio_unitario": "28.73"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 69,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "UÑAS 3/4 pulg PARED DELGADA",
+        "precio_unitario": "1.45"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 70,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "UÑAS 1 pulg PARED DELGADA ANCLO",
+        "precio_unitario": "2.13"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 71,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "MORDAZA O CLEMA CHICA P/DERIVACIONES CURVA",
+        "precio_unitario": "5.66"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 72,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "MORDAZA O CLEMA MEDIANA",
+        "precio_unitario": "5.78"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 73,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "TORNILLO C/TUERCA DE 6*20 MM P/DERIV T PZA",
+        "precio_unitario": "3.54"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 74,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "RONDANA 1/4 pulg PLANA GALVANIZADA",
+        "precio_unitario": "0.31"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 75,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "EXPANSOR Z 1/4 pulg 6.5 MM ANCLO",
+        "precio_unitario": "7.46"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 76,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "°SUJETADOR MARIPOSA 1/4 pulg ANCLO",
+        "precio_unitario": "5.13"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 77,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "PIJA 8 X 1/2 K-LATH PUNTA BROCA CABEZA DE CRUZ",
+        "precio_unitario": "0.19"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 78,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "UÑAS 1 pulg PARED DELGADA ANCLO",
+        "precio_unitario": "2.13"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 79,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "°SUJETADOR MARIPOSA 3/16 pulg ANCLO",
+        "precio_unitario": "3.61"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 80,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "ABRAZADERA 2 pulg UNICANAL PARED GRUESA ANCLO",
+        "precio_unitario": "18.06"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 81,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CONECTOR DE RESORTE ROJO-AMARILLO R/Y+ 3M",
+        "precio_unitario": "2.46"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 82,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "ZAPATA TERMINAL 4-1/0 AWG MECANICA MARCA DELTA",
+        "precio_unitario": "49.37"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 83,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CONECTOR A TOPE SIN AISLAR CAL.8",
+        "precio_unitario": "8.86"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 84,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CENTRO DE CARGA QOD2S DOMESTICO SQUARE D",
+        "precio_unitario": "212.16"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 85,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CENTRO DE CARGA NO METALICO 2P 60A NEMA 3R",
+        "precio_unitario": "477.44"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 86,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CENTRO DE CARGA QO816L100S SQUARE D",
+        "precio_unitario": "1184.52"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 87,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CENTRO DE CARGA 20P 3F CLASE 1130",
+        "precio_unitario": "5937.26"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 88,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "FRENTE PARA CENTRO DE CARGA QOC24 SOBREPONER",
+        "precio_unitario": "849.74"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 89,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "xTABLERO DE DISTRIBUCION MONTAJE PARD O SOBREPONER 4 400 AMP, ALUMINIO",
+        "precio_unitario": "31616.19"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 90,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CENTRO DE CARGA QO816L100S SQUARE D",
+        "precio_unitario": "1089.72"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 91,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "SQQO320L125G *CENTRO DE CARGA 20P 3F CLASE 1130",
+        "precio_unitario": "5165.06"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 92,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "KIT MONTAJE P4 GEMELO P/ED 3.75 pulg 125A",
+        "precio_unitario": "3836.43"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 93,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "/TORNILLOS P/FIJACION DE INTERRUPTOR TERMOMAGNETICO ED",
+        "precio_unitario": "101.87"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 94,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "xKIT MONTAJE P4 GEMELO P/FXD SIEMENS",
+        "precio_unitario": "5767.99"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 95,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "°INTERRUPTOR 3X250 A 600V CON ZAPATAS",
+        "precio_unitario": "8779.32"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 96,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "°INTERIOR PARA TABLERO 30P 100AMP 3F 4H",
+        "precio_unitario": "7941.77"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 97,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "CAJA GALVANIZADA 20 pulg X32 pulg PARA TABLERO NQ/NF",
+        "precio_unitario": "1244.39"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 98,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "°FRENTE DE SOBREPONER 20 pulg NC32S SQUARE D",
+        "precio_unitario": "3556.98"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 99,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "BASE DE MEDICION 7100 3X100A SQD 4131",
+        "precio_unitario": "1696.28"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 100,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "COPLE 1 1/4 pulg PARA BASE DE MEDICION 4131",
+        "precio_unitario": "102.88"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 101,
+    "fields": {
+        "categoria": "INTERRUPTORES",
+        "descripcion": "GABINETE PARA INTERRUPTOR QO NEMA 1 SQUARE D",
+        "precio_unitario": "1746.71"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 102,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CAJA CUADRADA GALVANIZADA 1/2 pulg 3X3 CON TAPA CIEGA",
+        "precio_unitario": "5.47"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 103,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CAJA CUADRADA GALVANIZADA 1 pulg Y 3/4 pulg CON TAPA CIEGA",
+        "precio_unitario": "17.96"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 104,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "OLB 3/4 pulg RAWELT CONDULET OVALADO CON TAPA",
+        "precio_unitario": "42.68"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 105,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CONDULET OVALADO OLB 1 pulg C/TAPA RAWELT",
+        "precio_unitario": "64.69"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 106,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CAJA DE CONTACTOS TMK C/TAQUETES Y TORNILLOS",
+        "precio_unitario": "21.86"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 107,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CAJA CUADRADA GALVANIZADA 3/4 pulg Y 1/2 4X4 CON TAPA CIEGA",
+        "precio_unitario": "13.20"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 108,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "OLR 3/4 pulg RAWELT CONDULET OVALADO",
+        "precio_unitario": "42.68"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 109,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CONDULET FS 3/4 pulg INYECTADO ANCLO",
+        "precio_unitario": "66.72"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 110,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "SOBRETAPA GALVANIZADA 3/4 pulg",
+        "precio_unitario": "2.78"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 111,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CHALUPA GALVANIZADA 1/2 pulg CALIBRE 22",
+        "precio_unitario": "5.10"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 112,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "OLB 2 pulg RAWELT CONDULET OVALADO C/TAPA",
+        "precio_unitario": "269.51"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 113,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "/CAJA CUADRADA DE 1 pulg REFORZADA RACO",
+        "precio_unitario": "49.44"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 114,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "TAPA CUADRADA DE 4-11/16'' MOD 833 MARCA RACO",
+        "precio_unitario": "19.49"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 115,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "1 pulg DE NEOPRENO 1/32 pulg P/CONDULET OVALADO",
+        "precio_unitario": "13.28"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 116,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "GABINETE METALICO 300X250X150 SBE TECH",
+        "precio_unitario": "663.61"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 117,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "REGISTRO PARA ALUMBRADO PUBLICO DE CONCRETO 35X35X40",
+        "precio_unitario": "551.19"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 118,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CONDULET OLL 1 pulg OVALADO C/TAPA RAWELT",
+        "precio_unitario": "64.69"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 119,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PLACA CIEGA CON PRE -RUPTURA Y CHASIS DE RESINA COLOR BLANCO MODUS PRO",
+        "precio_unitario": "32.13"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 120,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "TOMACORRIENTE DUPLEX 2P+T PROTECCION INFANTIL 15A 127-250V PLACA BLANCA",
+        "precio_unitario": "64.26"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 121,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "RECEPTACULO DUPLEX 2P3H ATE.N5-15R 15A 125VMA",
+        "precio_unitario": "22.06"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 122,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PLACA DUPLEX MARFIL RESINA EAGLE",
+        "precio_unitario": "8.39"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 123,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CLAVIJA DE VINIL BLINDADA 15A 125V NEMA 5 15",
+        "precio_unitario": "50.03"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 124,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CONECTOR DE VINIL 15A 125V N.5-15 RECTA",
+        "precio_unitario": "71.00"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 125,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "INTERRUPTOR SENCILLO 16AX 127-277V 1 MODULO MODUS PRO",
+        "precio_unitario": "36.77"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 126,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PLACA DE 1 MODULO CON CHASIS DE RESINA COLOR BLANCO MODUS PRO",
+        "precio_unitario": "36.01"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 127,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CONTACTO DUPLEX 15A 125V 2P 3H ATERRIZADOS BLANCO",
+        "precio_unitario": "23.97"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 128,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PLACA DUPLEX BLANCA RESINA EAGLE",
+        "precio_unitario": "11.59"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 129,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "//LUMINARIO DE PARED LED 2W B.C. RECTANGULAR DE SOBREPONER POLICARBONATO",
+        "precio_unitario": "246.84"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 130,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PANEL REDONDO ULTRA SLIM LED 12W 6500°K 90-260V MEGAMEX",
+        "precio_unitario": "247.06"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 131,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "LUMINARIO DE EMPOTRAR EN TECHO CRISTAL 9W LED 6500ºK SATINADO TECNOLITE MODELO NADI",
+        "precio_unitario": "193.36"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 132,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "SENSOR DE MOVIMIENTO PARA TECHO MARCA IPSA",
+        "precio_unitario": "138.02"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 133,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "LAMPARA DE EMERGENCIA SMD 90 LEDS",
+        "precio_unitario": "380.06"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 134,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CUBIERTA INDUSTRIAL 40 MM PARA FS MARCA ESTELLA",
+        "precio_unitario": "43.47"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 135,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PANEL LED 54W 60x120CM 6500°K LEDVANCE 39111500 ObjImp02 Descuento",
+        "precio_unitario": "860.05"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 136,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PANEL LED 36W 60x60cm LDD 6500ºK LEDVANCE 86580/80523",
+        "precio_unitario": "412.03"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 137,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "LEDVANCE KIT DE SUSPENSION",
+        "precio_unitario": "78.67"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 138,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "INTERRUPTOR DE CIRCUITO POR FALLA A TIERRA GFCI C/AUTOTEST CHASIS Y PLACA",
+        "precio_unitario": "303.35"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 139,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "EXTRACTOR 4 pulg 85m3/H 127V MARCA IPSA",
+        "precio_unitario": "363.81"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 140,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "EXTRACTOR 6 pulg 230m3/H 127V MARCA IPSA",
+        "precio_unitario": "515.37"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 141,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "ELECTRONIVEL 25A MP 2MTS INRECO",
+        "precio_unitario": "169.77"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 142,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CEMENTO PARA PVC ALTA 1000 ML",
+        "precio_unitario": "200.54"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 143,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CEMENTO P/PVC CLARO DE 16 OZ (1/2 LTS)",
+        "precio_unitario": "98.89"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 144,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CINTA PVC TEMFLEX 165 NEGRA 19 MM X18.3M",
+        "precio_unitario": "20.66"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 145,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "TAQUETE PARA TABLAROCA PERFORATHOR POR PIEZA",
+        "precio_unitario": "0.63"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 146,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CINTA SUPER 33 19mmX18M VINILO SCOTCH 3M",
+        "precio_unitario": "78.99"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 147,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PIJA PARA LAMINA 8 X 1 1/4 pulg CABEZA CRUZ GALVANIZADA",
+        "precio_unitario": "0.48"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 148,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "ESPADA AMARILLA 3/16 pulg CAL.12-10",
+        "precio_unitario": "1.29"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 149,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "COLLARIN NEGRO 3.5x180MM PROTECION U.V. LEGRAND 39121703 ObjImp02 Descuento",
+        "precio_unitario": "0.51"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 150,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "CONECTOR DE RESORTE ROJO-AMARILLO R/Y+ 3M",
+        "precio_unitario": "2.49"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 151,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "TERMINAL OJILLO AMARILLO 3/16 pulg CAL.12 10",
+        "precio_unitario": "1.33"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 152,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "INTERRUPTOR 3 VIAS 16AX 127-277V 1 MODULO MODUS PRO",
+        "precio_unitario": "44.19"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 153,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PLACA DE 1 MODULO CON CHASIS DE RESINA COLOR BLANCO MODUS PRO",
+        "precio_unitario": "32.13"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 154,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "PLACA 3 MODULOS CHASIS DE RESINA COLOR BLANCO MODUS PRO",
+        "precio_unitario": "33.74"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 155,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "//TAPA RECTANGULAR CIEGA 4T C/EMPAQUE RAWELT",
+        "precio_unitario": "41.82"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 156,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "LUMINARIO APOLLO 6'' 4000°K 9W D/SOBREPONER C/SENSOR DE MOVIMIENTO BLANCO",
+        "precio_unitario": "218.45"
+    }
+},
+{
+    "model": "core.productoservicio",
+    "pk": 157,
+    "fields": {
+        "categoria": "TABLEROS",
+        "descripcion": "/PLAFON CUADRADO 15W 6500ºK SLIM 15,000 Hrs.LEDVANCE 100-240V 1125lm",
+        "precio_unitario": "182.47"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 1,
+    "fields": {
+        "folio": "150",
+        "fecha": "2026-01-19T00:00:00Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 2,
+    "fields": {
+        "folio": "26546",
+        "fecha": "2026-01-21T00:00:00Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 3,
+    "fields": {
+        "folio": "fsd5f",
+        "fecha": "2026-01-21T00:00:00Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 4,
+    "fields": {
+        "folio": "fsd5fredr",
+        "fecha": "2026-01-21T00:00:00Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 5,
+    "fields": {
+        "folio": "P-00005",
+        "fecha": "2026-01-21T23:18:08.482Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 6,
+    "fields": {
+        "folio": "P-00006",
+        "fecha": "2026-01-21T23:18:15.720Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 7,
+    "fields": {
+        "folio": "P-00007",
+        "fecha": "2026-01-21T23:20:01.680Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 8,
+    "fields": {
+        "folio": "P-00008",
+        "fecha": "2026-01-21T23:22:26.725Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 9,
+    "fields": {
+        "folio": "P-00009",
+        "fecha": "2026-01-21T23:23:37.604Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 10,
+    "fields": {
+        "folio": "P-00010",
+        "fecha": "2026-01-21T23:31:45.792Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 11,
+    "fields": {
+        "folio": "P-00011",
+        "fecha": "2026-01-21T23:31:57.019Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 12,
+    "fields": {
+        "folio": "P-00012",
+        "fecha": "2026-01-21T23:32:07.140Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 13,
+    "fields": {
+        "folio": "P-00013",
+        "fecha": "2026-01-21T23:32:10.702Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 14,
+    "fields": {
+        "folio": "P-00014",
+        "fecha": "2026-01-21T23:32:16.336Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 15,
+    "fields": {
+        "folio": "P-00015",
+        "fecha": "2026-01-21T23:32:29.203Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 16,
+    "fields": {
+        "folio": "P-00016",
+        "fecha": "2026-01-21T23:33:27.575Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 17,
+    "fields": {
+        "folio": "P-00017",
+        "fecha": "2026-01-21T23:33:59.333Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 18,
+    "fields": {
+        "folio": "P-00018",
+        "fecha": "2026-01-21T23:43:16.509Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 19,
+    "fields": {
+        "folio": "P-00019",
+        "fecha": "2026-01-21T23:44:18.363Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 20,
+    "fields": {
+        "folio": "P-00020",
+        "fecha": "2026-01-21T23:47:29.540Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 21,
+    "fields": {
+        "folio": "P-00021",
+        "fecha": "2026-01-22T01:52:15.485Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 22,
+    "fields": {
+        "folio": "P-00022",
+        "fecha": "2026-01-22T01:52:22.595Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 23,
+    "fields": {
+        "folio": "P-00023",
+        "fecha": "2026-01-22T02:06:42.115Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 24,
+    "fields": {
+        "folio": "P-00024",
+        "fecha": "2026-01-22T02:12:05.844Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 25,
+    "fields": {
+        "folio": "P-00025",
+        "fecha": "2026-01-22T02:24:03.607Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 26,
+    "fields": {
+        "folio": "P-00026",
+        "fecha": "2026-01-22T02:36:32.454Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 27,
+    "fields": {
+        "folio": "P-00027",
+        "fecha": "2026-01-22T02:37:23.889Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 28,
+    "fields": {
+        "folio": "P-00028",
+        "fecha": "2026-01-22T04:59:35.485Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 29,
+    "fields": {
+        "folio": "P-00029",
+        "fecha": "2026-01-26T23:28:40.564Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 30,
+    "fields": {
+        "folio": "P-00030",
+        "fecha": "2026-01-26T23:29:04.328Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 31,
+    "fields": {
+        "folio": "P-00031",
+        "fecha": "2026-01-26T23:46:51.883Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 32,
+    "fields": {
+        "folio": "P-00032",
+        "fecha": "2026-01-27T00:09:53.948Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 33,
+    "fields": {
+        "folio": "P-00033",
+        "fecha": "2026-01-27T00:10:06.202Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 34,
+    "fields": {
+        "folio": "P-00034",
+        "fecha": "2026-01-27T00:18:49.547Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 35,
+    "fields": {
+        "folio": "P-00035",
+        "fecha": "2026-01-27T00:40:47.134Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 36,
+    "fields": {
+        "folio": "P-00036",
+        "fecha": "2026-01-29T03:27:20.352Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 37,
+    "fields": {
+        "folio": "P-00037",
+        "fecha": "2026-01-29T03:52:53.459Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 38,
+    "fields": {
+        "folio": "P-00038",
+        "fecha": "2026-01-29T03:53:22.819Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 39,
+    "fields": {
+        "folio": "P-00039",
+        "fecha": "2026-01-29T03:53:57.481Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 40,
+    "fields": {
+        "folio": "P-00040",
+        "fecha": "2026-01-29T04:18:26.719Z",
+        "proyecto": "Proyecto...ded",
+        "cliente_nombre": "xd",
+        "cliente_direccion": "ww",
+        "cliente_ciudad": "sdd",
+        "cliente_cp": "2000"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 41,
+    "fields": {
+        "folio": "P-00041",
+        "fecha": "2026-02-01T23:32:34.956Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 42,
+    "fields": {
+        "folio": "P-00042",
+        "fecha": "2026-02-01T23:34:42.083Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": "pepe",
+        "cliente_direccion": "xd",
+        "cliente_ciudad": "Jal",
+        "cliente_cp": "45200"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 43,
+    "fields": {
+        "folio": "P-00043",
+        "fecha": "2026-02-02T00:14:57.428Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 44,
+    "fields": {
+        "folio": "P-00044",
+        "fecha": "2026-02-02T00:19:28.430Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 45,
+    "fields": {
+        "folio": "P-00045",
+        "fecha": "2026-02-02T00:27:52.959Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 46,
+    "fields": {
+        "folio": "P-00046",
+        "fecha": "2026-02-02T00:28:11.799Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 47,
+    "fields": {
+        "folio": "P-00047",
+        "fecha": "2026-02-02T00:39:51.947Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 48,
+    "fields": {
+        "folio": "P-00048",
+        "fecha": "2026-02-02T00:45:34.682Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 49,
+    "fields": {
+        "folio": "P-00049",
+        "fecha": "2026-02-02T00:47:23.076Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 50,
+    "fields": {
+        "folio": "P-00050",
+        "fecha": "2026-02-02T00:47:41.156Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 51,
+    "fields": {
+        "folio": "P-00051",
+        "fecha": "2026-02-02T00:50:56.536Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 52,
+    "fields": {
+        "folio": "P-00052",
+        "fecha": "2026-02-02T02:04:05.271Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 53,
+    "fields": {
+        "folio": "P-00053",
+        "fecha": "2026-02-02T02:04:25.817Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 54,
+    "fields": {
+        "folio": "P-00054",
+        "fecha": "2026-02-05T03:52:44.356Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 55,
+    "fields": {
+        "folio": "P-00055",
+        "fecha": "2026-02-05T03:54:44.940Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 56,
+    "fields": {
+        "folio": "P-00056",
+        "fecha": "2026-02-05T03:58:23.854Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 57,
+    "fields": {
+        "folio": "P-00057",
+        "fecha": "2026-02-05T03:58:55.437Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 58,
+    "fields": {
+        "folio": "P-00058",
+        "fecha": "2026-02-05T04:00:08.975Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 59,
+    "fields": {
+        "folio": "P-00059",
+        "fecha": "2026-02-05T04:01:50.752Z",
+        "proyecto": "Proyecto...ded",
+        "cliente_nombre": "xd",
+        "cliente_direccion": null,
+        "cliente_ciudad": "sdd",
+        "cliente_cp": "2000"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 60,
+    "fields": {
+        "folio": "P-00060",
+        "fecha": "2026-02-05T04:20:33.031Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 61,
+    "fields": {
+        "folio": "P-00061",
+        "fecha": "2026-02-05T04:29:43.411Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 62,
+    "fields": {
+        "folio": "P-00062",
+        "fecha": "2026-02-05T04:33:12.622Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 63,
+    "fields": {
+        "folio": "P-00063",
+        "fecha": "2026-02-05T04:38:40.728Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 64,
+    "fields": {
+        "folio": "P-00064",
+        "fecha": "2026-02-05T04:41:38.441Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 65,
+    "fields": {
+        "folio": "P-00065",
+        "fecha": "2026-02-05T04:48:00.389Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 66,
+    "fields": {
+        "folio": "P-00066",
+        "fecha": "2026-02-05T04:49:36.166Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 67,
+    "fields": {
+        "folio": "P-00067",
+        "fecha": "2026-02-05T04:49:51.222Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 68,
+    "fields": {
+        "folio": "P-00068",
+        "fecha": "2026-02-05T04:56:13.434Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 69,
+    "fields": {
+        "folio": "P-00069",
+        "fecha": "2026-02-05T04:57:04.132Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 70,
+    "fields": {
+        "folio": "P-00070",
+        "fecha": "2026-02-05T04:57:22.884Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 71,
+    "fields": {
+        "folio": "P-00071",
+        "fecha": "2026-02-05T04:59:26.781Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 72,
+    "fields": {
+        "folio": "P-00072",
+        "fecha": "2026-02-06T23:09:19.074Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 73,
+    "fields": {
+        "folio": "P-00073",
+        "fecha": "2026-02-06T23:25:44.382Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 74,
+    "fields": {
+        "folio": "P-00074",
+        "fecha": "2026-02-07T01:22:09.267Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 75,
+    "fields": {
+        "folio": "P-00075",
+        "fecha": "2026-02-07T01:25:32.245Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 76,
+    "fields": {
+        "folio": "P-00076",
+        "fecha": "2026-02-07T02:20:35.626Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 77,
+    "fields": {
+        "folio": "P-00077",
+        "fecha": "2026-02-07T02:22:10.553Z",
+        "proyecto": "Panel solar",
+        "cliente_nombre": "Lalo",
+        "cliente_direccion": null,
+        "cliente_ciudad": "Morelia",
+        "cliente_cp": "Michoacan"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 78,
+    "fields": {
+        "folio": "P-00078",
+        "fecha": "2026-02-07T02:29:29.988Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 79,
+    "fields": {
+        "folio": "P-00079",
+        "fecha": "2026-02-07T02:29:39.576Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": "pepe",
+        "cliente_direccion": "Lad rosa",
+        "cliente_ciudad": "Jal",
+        "cliente_cp": "2000"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 80,
+    "fields": {
+        "folio": "P-00080",
+        "fecha": "2026-02-07T02:41:44.029Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 81,
+    "fields": {
+        "folio": "P-00081",
+        "fecha": "2026-02-07T02:51:20.787Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 82,
+    "fields": {
+        "folio": "P-00082",
+        "fecha": "2026-02-07T16:54:33.523Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 83,
+    "fields": {
+        "folio": "P-00083",
+        "fecha": "2026-02-07T16:56:37.519Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 84,
+    "fields": {
+        "folio": "P-00084",
+        "fecha": "2026-02-07T16:57:26.260Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 85,
+    "fields": {
+        "folio": "P-00085",
+        "fecha": "2026-02-07T17:02:22.756Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 86,
+    "fields": {
+        "folio": "P-00086",
+        "fecha": "2026-02-07T17:08:05.262Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 87,
+    "fields": {
+        "folio": "P-00087",
+        "fecha": "2026-02-07T17:08:05.403Z",
+        "proyecto": "Proyecto...PANELES 2",
+        "cliente_nombre": "SULTANITO 2",
+        "cliente_direccion": "MADERA #25 2",
+        "cliente_ciudad": "Morelia 2",
+        "cliente_cp": "58199"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 88,
+    "fields": {
+        "folio": "P-00088",
+        "fecha": "2026-02-07T17:15:07.166Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 89,
+    "fields": {
+        "folio": "P-00089",
+        "fecha": "2026-02-07T17:16:08.062Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 90,
+    "fields": {
+        "folio": "P-00090",
+        "fecha": "2026-02-07T17:16:18.605Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 91,
+    "fields": {
+        "folio": "P-00091",
+        "fecha": "2026-02-07T17:16:19.671Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 92,
+    "fields": {
+        "folio": "P-00092",
+        "fecha": "2026-02-07T17:16:43.336Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 93,
+    "fields": {
+        "folio": "P-00093",
+        "fecha": "2026-02-07T17:16:44.415Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 94,
+    "fields": {
+        "folio": "P-00094",
+        "fecha": "2026-02-07T17:23:14.901Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 95,
+    "fields": {
+        "folio": "P-00095",
+        "fecha": "2026-02-07T17:26:37.963Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 96,
+    "fields": {
+        "folio": "P-00096",
+        "fecha": "2026-02-07T17:27:20.252Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 97,
+    "fields": {
+        "folio": "P-00097",
+        "fecha": "2026-02-07T17:28:11.555Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 98,
+    "fields": {
+        "folio": "P-00098",
+        "fecha": "2026-02-07T17:37:15.828Z",
+        "proyecto": "Proyecto...PANELES 2",
+        "cliente_nombre": "SULTANITO 2",
+        "cliente_direccion": "MADERA #25 2",
+        "cliente_ciudad": "Morelia 2",
+        "cliente_cp": "58199"
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 99,
+    "fields": {
+        "folio": "P-00099",
+        "fecha": "2026-02-07T18:01:25.922Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 100,
+    "fields": {
+        "folio": "P-00100",
+        "fecha": "2026-02-07T18:09:21.569Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 101,
+    "fields": {
+        "folio": "P-00101",
+        "fecha": "2026-02-07T18:44:38.814Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 102,
+    "fields": {
+        "folio": "P-00102",
+        "fecha": "2026-04-06T17:47:38.075Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 103,
+    "fields": {
+        "folio": "P-00103",
+        "fecha": "2026-04-06T18:01:49.637Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 104,
+    "fields": {
+        "folio": "P-00104",
+        "fecha": "2026-04-06T18:02:12.243Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 105,
+    "fields": {
+        "folio": "P-00105",
+        "fecha": "2026-04-06T18:02:52.083Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 106,
+    "fields": {
+        "folio": "P-00106",
+        "fecha": "2026-04-06T18:03:51.022Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 107,
+    "fields": {
+        "folio": "P-00107",
+        "fecha": "2026-09-14T20:50:16.541Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 108,
+    "fields": {
+        "folio": "P-00108",
+        "fecha": "2026-09-14T20:50:29.664Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.presupuesto",
+    "pk": 109,
+    "fields": {
+        "folio": "P-00109",
+        "fecha": "2026-09-14T20:59:58.449Z",
+        "proyecto": "Proyecto...",
+        "cliente_nombre": null,
+        "cliente_direccion": null,
+        "cliente_ciudad": null,
+        "cliente_cp": null
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 1,
+    "fields": {
+        "presupuesto": 1,
+        "producto": 1,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 2,
+    "fields": {
+        "presupuesto": 1,
+        "producto": 4,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 3,
+    "fields": {
+        "presupuesto": 1,
+        "producto": 3,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 4,
+    "fields": {
+        "presupuesto": 2,
+        "producto": 2,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 5,
+    "fields": {
+        "presupuesto": 2,
+        "producto": 4,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 6,
+    "fields": {
+        "presupuesto": 2,
+        "producto": 6,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 7,
+    "fields": {
+        "presupuesto": 19,
+        "producto": 1,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 8,
+    "fields": {
+        "presupuesto": 19,
+        "producto": 13,
+        "cantidad": "6.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 9,
+    "fields": {
+        "presupuesto": 20,
+        "producto": 5,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 10,
+    "fields": {
+        "presupuesto": 20,
+        "producto": 5,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 11,
+    "fields": {
+        "presupuesto": 20,
+        "producto": 13,
+        "cantidad": "1.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 12,
+    "fields": {
+        "presupuesto": 22,
+        "producto": 7,
+        "cantidad": "0.01",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 13,
+    "fields": {
+        "presupuesto": 22,
+        "producto": 9,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 14,
+    "fields": {
+        "presupuesto": 24,
+        "producto": 2,
+        "cantidad": "0.01",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 15,
+    "fields": {
+        "presupuesto": 25,
+        "producto": 3,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 16,
+    "fields": {
+        "presupuesto": 25,
+        "producto": 5,
+        "cantidad": "30.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 17,
+    "fields": {
+        "presupuesto": 25,
+        "producto": 7,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 18,
+    "fields": {
+        "presupuesto": 27,
+        "producto": 8,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 19,
+    "fields": {
+        "presupuesto": 27,
+        "producto": 9,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 20,
+    "fields": {
+        "presupuesto": 27,
+        "producto": 6,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 21,
+    "fields": {
+        "presupuesto": 27,
+        "producto": 5,
+        "cantidad": "4.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 22,
+    "fields": {
+        "presupuesto": 34,
+        "producto": 6,
+        "cantidad": "200.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 23,
+    "fields": {
+        "presupuesto": 34,
+        "producto": 19,
+        "cantidad": "200.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 24,
+    "fields": {
+        "presupuesto": 34,
+        "producto": 12,
+        "cantidad": "-0.01",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 25,
+    "fields": {
+        "presupuesto": 34,
+        "producto": 14,
+        "cantidad": "200.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 26,
+    "fields": {
+        "presupuesto": 34,
+        "producto": 5,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 27,
+    "fields": {
+        "presupuesto": 36,
+        "producto": 10,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 28,
+    "fields": {
+        "presupuesto": 36,
+        "producto": 9,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 29,
+    "fields": {
+        "presupuesto": 36,
+        "producto": 17,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 30,
+    "fields": {
+        "presupuesto": 36,
+        "producto": 9,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 31,
+    "fields": {
+        "presupuesto": 36,
+        "producto": 12,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 32,
+    "fields": {
+        "presupuesto": 40,
+        "producto": 7,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 33,
+    "fields": {
+        "presupuesto": 40,
+        "producto": 3,
+        "cantidad": "3.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 34,
+    "fields": {
+        "presupuesto": 40,
+        "producto": 9,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 35,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 8,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 36,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 8,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 37,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 12,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 38,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 42,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 39,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 11,
+        "cantidad": "1.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 40,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 32,
+        "cantidad": "1.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 41,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 8,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 42,
+    "fields": {
+        "presupuesto": 42,
+        "producto": 7,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 43,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 6,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 44,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 6,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 45,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 11,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 46,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 7,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 47,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 3,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 48,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 6,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 49,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 5,
+        "cantidad": "8.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 50,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 12,
+        "cantidad": "-0.01",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 51,
+    "fields": {
+        "presupuesto": 43,
+        "producto": 15,
+        "cantidad": "20.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 52,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 4,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 53,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 12,
+        "cantidad": "1.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 54,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 12,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 55,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 6,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 56,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 10,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 57,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 6,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 58,
+    "fields": {
+        "presupuesto": 44,
+        "producto": 11,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 59,
+    "fields": {
+        "presupuesto": 59,
+        "producto": 7,
+        "cantidad": "12.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 60,
+    "fields": {
+        "presupuesto": 59,
+        "producto": 10,
+        "cantidad": "13.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 61,
+    "fields": {
+        "presupuesto": 77,
+        "producto": 19,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 62,
+    "fields": {
+        "presupuesto": 77,
+        "producto": 19,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 63,
+    "fields": {
+        "presupuesto": 79,
+        "producto": 10,
+        "cantidad": "2.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 64,
+    "fields": {
+        "presupuesto": 87,
+        "producto": 44,
+        "cantidad": "45.00",
+        "unidad": "MT"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 65,
+    "fields": {
+        "presupuesto": 87,
+        "producto": 12,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 66,
+    "fields": {
+        "presupuesto": 87,
+        "producto": 14,
+        "cantidad": "5.00",
+        "unidad": "MT"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 67,
+    "fields": {
+        "presupuesto": 87,
+        "producto": 17,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 68,
+    "fields": {
+        "presupuesto": 98,
+        "producto": 4,
+        "cantidad": "3.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 69,
+    "fields": {
+        "presupuesto": 98,
+        "producto": 15,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 70,
+    "fields": {
+        "presupuesto": 98,
+        "producto": 40,
+        "cantidad": "25.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 71,
+    "fields": {
+        "presupuesto": 94,
+        "producto": 7,
+        "cantidad": "9.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 72,
+    "fields": {
+        "presupuesto": 94,
+        "producto": 3,
+        "cantidad": "9.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 73,
+    "fields": {
+        "presupuesto": 94,
+        "producto": 3,
+        "cantidad": "9.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 74,
+    "fields": {
+        "presupuesto": 94,
+        "producto": 3,
+        "cantidad": "9.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 75,
+    "fields": {
+        "presupuesto": 94,
+        "producto": 15,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 76,
+    "fields": {
+        "presupuesto": 94,
+        "producto": 40,
+        "cantidad": "1.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 77,
+    "fields": {
+        "presupuesto": 99,
+        "producto": 8,
+        "cantidad": "5.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 78,
+    "fields": {
+        "presupuesto": 99,
+        "producto": 15,
+        "cantidad": "4.00",
+        "unidad": "PZA"
+    }
+},
+{
+    "model": "core.detallepresupuesto",
+    "pk": 79,
+    "fields": {
+        "presupuesto": 99,
+        "producto": 17,
+        "cantidad": "10.00",
+        "unidad": "PZA"
+    }
+}
+]
