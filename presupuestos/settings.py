@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'presupuestos.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
-
+MOUNT_DATA_DIR = os.environ.get('DATA_DIR', str(BASE_DIR))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
