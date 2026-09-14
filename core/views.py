@@ -4,34 +4,38 @@ from .forms import ProductoForm, DetallePresupuestoForm, PresupuestoInfoForm
 from django.template.loader import render_to_string
 from django.http import HttpResponse
 from weasyprint import HTML
-from django.db.models import Q
-from django.db.models import F
-# Create your views here.
+from django.db.models import Q, F
+from django.contrib.auth.decorators import login_required
 
-
+@login_required
 def index(request):
     return render(request, "core/index.html")
 
+@login_required
 def catalogo_list(request):
-    query = request.GET.get('q', '')
+    query = request.GET.get('q', '').strip()
     productos = ProductoServicio.objects.all()
     
     if query:
-        productos = productos.filter(descripcion__icontains=query)
+        # Buscamos coincidencias en descripción o en categoría
+        productos = productos.filter(
+            Q(descripcion__icontains=query) | Q(categoria__icontains=query)
+        )
 
-    # Si la petición trae este encabezado, solo devolvemos las filas de la tabla
     if request.headers.get('x-requested-with') == 'XMLHttpRequest':
         html = render_to_string('core/partials/catalogo_rows.html', {'productos': productos})
         return HttpResponse(html)
 
     return render(request, 'core/catalogo.html', {'productos': productos, 'query': query})
 
+@login_required
 def catalogo_eliminar(request, pk):
     producto = get_object_or_404(ProductoServicio, pk=pk)
     if request.method == 'POST':
         producto.delete()
     return redirect('catalogo_list')
 
+@login_required
 def catalogo_form(request, pk=None):
     producto = get_object_or_404(ProductoServicio, pk=pk) if pk else None
 
@@ -55,29 +59,27 @@ def catalogo_form(request, pk=None):
 
     return render(request, "core/catalogo_form.html", {"form": form})
 
-
+@login_required
 def crear_presupuesto(request):
     presupuesto = Presupuesto.objects.create()
     return redirect("detalle_presupuesto", pk=presupuesto.id)
 
-
+@login_required
 def detalle_presupuesto(request, pk):
     presupuesto = get_object_or_404(Presupuesto, pk=pk)
-    detalles = presupuesto.detalles.all()
+    # Optimización: select_related trae el ProductoServicio en la misma consulta SQL
+    detalles = presupuesto.detalles.select_related('producto').all()
 
-    # Inicializamos ambos formularios
     form = DetallePresupuestoForm()
     form_info = PresupuestoInfoForm(instance=presupuesto)
 
     if request.method == "POST":
-        # CASO 1: Se presionó el botón de actualizar datos del cliente/proyecto
         if "guardar_info" in request.POST:
             form_info = PresupuestoInfoForm(request.POST, instance=presupuesto)
             if form_info.is_valid():
                 form_info.save()
                 return redirect("detalle_presupuesto", pk=presupuesto.id)
 
-        # CASO 2: Se presionó el botón de agregar producto (el que ya tenías)
         elif "agregar_producto" in request.POST:
             form = DetallePresupuestoForm(request.POST)
             if form.is_valid():
@@ -86,20 +88,19 @@ def detalle_presupuesto(request, pk):
                 detalle.save()
                 return redirect("detalle_presupuesto", pk=presupuesto.id)
 
-    total = presupuesto.total # Usamos la @property que definimos en el modelo
+    total = presupuesto.total
 
     return render(request, "core/presupuesto_detalle.html", {
         "presupuesto": presupuesto,
         "form": form,
-        "form_info": form_info, # Enviamos el nuevo form al template
+        "form_info": form_info,
         "detalles": detalles,
         "total": total
     })
 
-
+@login_required
 def aumentar_precios_catalogo(request):
     if request.method == 'POST':
-        # Obtenemos el porcentaje del formulario (por defecto 10 si algo falla)
         porcentaje_str = request.POST.get('porcentaje', '10')
         try:
             porcentaje = float(porcentaje_str)
@@ -107,16 +108,17 @@ def aumentar_precios_catalogo(request):
             porcentaje = 0
 
         if porcentaje != 0:
-            # Fórmula: Precio * (1 + (porcentaje / 100))
-            # Ejemplo: 10% -> Precio * 1.10 | -5% -> Precio * 0.95
             factor = 1 + (porcentaje / 100)
             ProductoServicio.objects.all().update(precio_unitario=F('precio_unitario') * factor)
     
-    return redirect(request.META.get('HTTP_REFERER', 'catalogo'))
+    # Corregido el nombre de la ruta de fallback a 'catalogo_list'
+    return redirect(request.META.get('HTTP_REFERER', 'catalogo_list'))
 
+@login_required
 def presupuesto_pdf(request, pk):
     presupuesto = get_object_or_404(Presupuesto, pk=pk)
-    detalles = presupuesto.detalles.all()
+    # Optimización de consulta para el PDF
+    detalles = presupuesto.detalles.select_related('producto').all()
     total = presupuesto.total
 
     html_string = render_to_string(
@@ -128,16 +130,10 @@ def presupuesto_pdf(request, pk):
         }
     )
 
-    #pdf = HTML(string=html_string).write_pdf()
-    pdf = HTML(string=html_string, base_url=request.build_absolute_uri()).write_pdf()
+    # Definimos la base_url para garantizar la resolución de imágenes estáticas
+    pdf = HTML(string=html_string, base_url=request.build_absolute_uri('/')).write_pdf()
     response = HttpResponse(pdf, content_type="application/pdf")
     response["Content-Disposition"] = (
-        f'attachment; filename="presupuesto_{presupuesto.folio}.pdf"'
+        f'inline; filename="presupuesto_{presupuesto.folio}.pdf"'
     )
     return response
-
-
-
-
-
-

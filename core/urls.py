@@ -1,5 +1,6 @@
 # core/urls.py
 from django.urls import path
+from django.contrib.auth import views as auth_views
 from . import views
 
 urlpatterns = [
@@ -14,5 +15,7 @@ urlpatterns = [
     path("presupuesto/<int:pk>/pdf/", views.presupuesto_pdf, name="presupuesto_pdf"),
     path('catalogo/eliminar/<int:pk>/', views.catalogo_eliminar, name='catalogo_eliminar'),
     path('catalogo/aumentar-diez/', views.aumentar_precios_catalogo, name='aumentar_precios_catalogo'),
+    path('login/', auth_views.LoginView.as_view(template_name='core/login.html'), name='login'),
+    path('logout/', auth_views.LogoutView.as_view(next_page='login'), name='logout'),
 ]
 
