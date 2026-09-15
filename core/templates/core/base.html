@@ -39,6 +39,20 @@
     </div>
 
     <main class="relative z-10 min-h-screen">
+        <!-- BOTÓN DE LOGOUT ULTRA COMPACTO -->
+        {% if user.is_authenticated %}
+        <div class="absolute top-3 right-3 z-50">
+            <form method="post" action="{% url 'logout' %}" class="inline">
+                {% csrf_token %}
+                <button type="submit" 
+                        title="Cerrar sesión"
+                        class="px-2 py-0.5 bg-red-500/20 hover:bg-red-500/40 border border-red-500/30 text-red-300 rounded-md text-[8px] font-bold uppercase tracking-wider transition-all active:scale-95 shadow-sm backdrop-blur-sm">
+                    Salir
+                </button>
+            </form>
+        </div>
+        {% endif %}
+
         {% block content %}{% endblock %}
     </main>
 
